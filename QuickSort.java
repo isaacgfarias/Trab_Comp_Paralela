@@ -122,8 +122,6 @@ public class QuickSort extends JPanel {
     }
 
 
-
-
     private void updateResults(int size, int processors, int time) {
         results[resultIndex++] = new int[]{size, processors, time};
         repaint();
